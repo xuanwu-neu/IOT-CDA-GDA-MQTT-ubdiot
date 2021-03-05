@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="programmingtheiot.part01.unit.system.SystemMemUtilTaskTest" time="0.098" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu/target/test-classes:/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu/target/classes:/Users/xuanwu/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/xuanwu/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/xuanwu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/xuanwu/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/xuanwu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/xuanwu/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/xuanwu/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/Users/xuanwu/.m2/repository/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.1/org.eclipse.paho.client.mqttv3-1.2.1.jar:/Users/xuanwu/.m2/repository/org/eclipse/californium/californium-core/1.0.7/californium-core-1.0.7.jar:/Users/xuanwu/.m2/repository/org/eclipse/californium/element-connector/1.0.7/element-connector-1.0.7.jar:/Users/xuanwu/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/xuanwu/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/xuanwu/.m2/repository/redis/clients/jedis/3.2.0/jedis-3.2.0.jar:/Users/xuanwu/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/xuanwu/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu/target/surefire/surefirebooter9292118868574255462.jar /Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu/target/surefire 2020-09-17T13-52-23_175-jvmRun1 surefire9643768042181111795tmp surefire_0367199665780622556tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu/target/test-classes:/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu/target/classes:/Users/xuanwu/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/xuanwu/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/xuanwu/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/xuanwu/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/xuanwu/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/xuanwu/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/xuanwu/.m2/repository/commons-cli/commons-cli/1.4/commons-cli-1.4.jar:/Users/xuanwu/.m2/repository/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.1/org.eclipse.paho.client.mqttv3-1.2.1.jar:/Users/xuanwu/.m2/repository/org/eclipse/californium/californium-core/1.0.7/californium-core-1.0.7.jar:/Users/xuanwu/.m2/repository/org/eclipse/californium/element-connector/1.0.7/element-connector-1.0.7.jar:/Users/xuanwu/.m2/repository/com/sun/mail/javax.mail/1.6.2/javax.mail-1.6.2.jar:/Users/xuanwu/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/xuanwu/.m2/repository/redis/clients/jedis/3.2.0/jedis-3.2.0.jar:/Users/xuanwu/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/xuanwu/.m2/repository/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/xuanwu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.7.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu/target/surefire/surefirebooter9292118868574255462.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.7+8-LTS"/>
+    <property name="user.name" value="xuanwu"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/xuanwu/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/jm/z5mswc3s42q9pg3n4frch03c0000gn/T/"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="user.dir" value="/Users/xuanwu/programmingtheiot/gateway-device-app-xuanwu-neu"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/xuanwu/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.7+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testGetTelemetryValue" classname="programmingtheiot.part01.unit.system.SystemMemUtilTaskTest" time="0.049">
+    <system-err><![CDATA[Sep 17, 2020 1:52:23 PM programmingtheiot.part01.unit.system.SystemMemUtilTaskTest testGetTelemetryValue
+INFO: Test 1: Memory Util: 0.0
+Sep 17, 2020 1:52:23 PM programmingtheiot.part01.unit.system.SystemMemUtilTaskTest testGetTelemetryValue
+INFO: Test 2: Memory Util: 0.0
+Sep 17, 2020 1:52:23 PM programmingtheiot.part01.unit.system.SystemMemUtilTaskTest testGetTelemetryValue
+INFO: Test 3: Memory Util: 0.0
+Sep 17, 2020 1:52:23 PM programmingtheiot.part01.unit.system.SystemMemUtilTaskTest testGetTelemetryValue
+INFO: Test 4: Memory Util: 0.0
+Sep 17, 2020 1:52:23 PM programmingtheiot.part01.unit.system.SystemMemUtilTaskTest testGetTelemetryValue
+INFO: Test 5: Memory Util: 0.0
+]]></system-err>
+  </testcase>
+  <testcase name="testGenerateTelemetry" classname="programmingtheiot.part01.unit.system.SystemMemUtilTaskTest" time="0.002">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at programmingtheiot.part01.unit.system.SystemMemUtilTaskTest.testGenerateTelemetry(SystemMemUtilTaskTest.java:88)
+]]></failure>
+  </testcase>
+</testsuite>
